@@ -172,9 +172,12 @@ body{
 
 .landing .intro-text h1{
     margin: 0;
-    color:var(--landingh1color) ;
+    color:var(--landingh1color) !important ;
     font-weight: bold;
     font-size: 40px;
+    background-color:transparent !important;
+    opacity: unset !important;
+
 }
 
 .landing .intro-text p{
@@ -209,10 +212,12 @@ body{
 }
 
 .features .feat p{
-  color: #847d7d;
+  color: #847d7d !important;
   line-height: 2;
   margin-top: -5px;
   font-size: 15px;
+  background-color:transparent !important;
+  opacity: unset !important;
 }
 /* card animate */
 
